@@ -1,24 +1,24 @@
 {
   "src": {
+
     "all": [
       "lib/**/*.js",
       "spec/**/*.spec.js"
-    ],
-    "spec": [
-      "spec/**"
     ],
     "lib": [
       "lib/**/*.js"
     ]
   },
-
+  "tests": [
+    "spec/*.spec.js",
+    "spec/**/*.spec.js"
+  ],
   "grunt": {
     "all": [
       "Gruntfile.js",
       "grunt/*.js"
     ]
   },
-
   "json": {
     "all": [
       "lib/**/*.json",
